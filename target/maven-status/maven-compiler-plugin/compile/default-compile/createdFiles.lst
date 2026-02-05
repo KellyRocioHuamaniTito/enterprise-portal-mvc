@@ -1,0 +1,4 @@
+com\company\portal\model\Invoice.class
+com\company\portal\service\InvoiceService.class
+com\company\portal\controller\InvoiceController.class
+com\company\portal\repository\InvoiceRepository.class
