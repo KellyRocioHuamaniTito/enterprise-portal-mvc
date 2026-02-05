@@ -9,9 +9,9 @@
   <packaging>war</packaging>
 
   <properties>
-    <maven.compiler.source>8</maven.compiler.source>
-    <maven.compiler.target>8</maven.compiler.target>
-    <spring.version>5.3.30</spring.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <spring.version>6.1.4</spring.version>
   </properties>
 
   <dependencies>
@@ -24,10 +24,10 @@
 
     <!-- Servlet API (lo provee el servidor como JBoss) -->
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>4.0.1</version>
-      <scope>provided</scope>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
+        <version>6.0.0</version>
+        <scope>provided</scope>
     </dependency>
 
     <!-- JSTL para usar tags como <c:forEach> -->
